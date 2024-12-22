@@ -44,13 +44,13 @@ Neovim's configurations are located under the following paths, depending on your
 **Linux and Mac**
 
 ```sh
-git clone https://github.com/nvim-lua/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+git clone https://github.com/javif89/nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
 ```
 
 **Windows**
 
 ```
-git clone https://github.com/nvim-lua/kickstart.nvim.git "${env:LOCALAPPDATA}\nvim"
+git clone https://github.com/javif89/nvim.git "${env:LOCALAPPDATA}\nvim"
 ```
 
 
