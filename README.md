@@ -1,7 +1,18 @@
 # javif89 Neovim Config
 
-Base on [Kickstart](https://github.com/nvim-lua/kickstart.nvim). Some of the install
+Based on [Kickstart](https://github.com/nvim-lua/kickstart.nvim). Some of the install
 instructions come from kickstart so I don't forget about any dependencies.
+
+## Structure
+
+I try to keep the config modular not because I want to change it all the time, but because
+I want it to be easy to look through and understand.
+
+The files are organized as such inside the `lua` folder:
+
+`core/`: Any component of the config that I absolutely must have in any system for the rest of time.
+`core/plugins`: Necessarry plugins such as mason, tree sitter and such.
+`optional`: Anything that I could remove and live without.
 
 ## Installation
 
