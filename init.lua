@@ -1,6 +1,5 @@
 -- Import vim options and such
 require 'core.options'
-require 'core.keymaps'
 require 'core.autocommands'
 
 -- Bootstrap lazy.nvim
@@ -88,3 +87,6 @@ require('lazy').setup({
     },
   },
 })
+-- Import keymaps after plugins so we don't get
+-- any "Module not found" errors
+require 'core.keymaps'

@@ -11,7 +11,9 @@ I want it to be easy to look through and understand.
 The files are organized as such inside the `lua` folder:
 
 `core/`: Any component of the config that I absolutely must have in any system for the rest of time.
+
 `core/plugins`: Necessarry plugins such as mason, tree sitter and such.
+
 `optional`: Anything that I could remove and live without.
 
 ## Installation
