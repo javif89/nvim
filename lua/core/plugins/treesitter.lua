@@ -17,10 +17,6 @@ return {
     indent = { enable = true, disable = { 'ruby' } },
   },
   config = function(_, opts)
-    vim.filetype.add {
-      pattern = { ['.*%blade%.php'] = 'blade' },
-    }
-
     require('nvim-treesitter.configs').setup(opts)
 
     local parser_config = require('nvim-treesitter.parsers').get_parser_configs()
