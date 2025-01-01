@@ -25,6 +25,7 @@ require('lazy').setup({
 
   { import = 'plugins.themes.catpuccin' },
   { import = 'plugins.core' },
+  { import = 'plugins.core.lsp' },
   { import = 'plugins.optional' },
   -- { import = 'plugins.languages' },
 }, {
@@ -51,3 +52,4 @@ require('lazy').setup({
 
 -- Plugin keymaps
 require 'editor.keymaps.plugins.telescope'
+require 'editor.keymaps.plugins.lsp'
