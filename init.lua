@@ -53,3 +53,4 @@ require('lazy').setup({
 -- Plugin keymaps
 require 'editor.keymaps.plugins.telescope'
 require 'editor.keymaps.plugins.lsp'
+require 'editor.keymaps.plugins.oil'
