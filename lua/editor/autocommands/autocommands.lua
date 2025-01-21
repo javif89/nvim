@@ -11,3 +11,13 @@ vim.api.nvim_create_autocmd('TextYankPost', {
     vim.highlight.on_yank()
   end,
 })
+
+-- Set the *.blade.php file to be filetype of blade
+vim.api.nvim_create_augroup('BladeFileTypeRelated', { clear = true })
+vim.api.nvim_create_autocmd({ 'BufNewFile', 'BufRead' }, {
+  pattern = '*.blade.php',
+  callback = function()
+    vim.opt.filetype = 'blade'
+  end,
+  group = 'BladeFileTypeRelated',
+})

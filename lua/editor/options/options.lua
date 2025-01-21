@@ -59,3 +59,8 @@ vim.opt.cursorline = true
 
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 20
+
+-- Enable all functions, equivalent to the default
+vim.g.user_emmet_mode = 'i'
+
+vim.wo.wrap = false
